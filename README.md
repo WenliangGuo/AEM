@@ -50,8 +50,8 @@ We provide two options for obtaining video features:
 Option 1: Follow the [EgoPER website](https://github.com/robert80203/EgoPER_official) to extract I3D features into the *data/* folder. (This process is slow on our machine.)  
 Option 2: Download pre-extracted I3D features (~2.9GB) from our [Google Drive](https://drive.google.com/drive/folders/1mIkjDdfPbMiG1C5S_qa8JwD9Wf-hvsDR?usp=sharing) and extract the files into the *data/* folder. (Faster with a stable internet connection.)
 
-### Step 3: Effect Frames
-Download the effect frames (~4GB) from our [Google Drive](https://drive.google.com/file/d/1d3GkObtZ-DLNsXjw4i5Lm0mfBlmatmK0/view?usp=sharing) and extract the files into the *data/effect_frames* folder.
+### (Optional) Step 3: Effect Frames
+For model evaluation only, this step can **be skipped** as effect frames are only used for training. Otherwise, download the effect frames (~4GB) from our [Google Drive](https://drive.google.com/file/d/1d3GkObtZ-DLNsXjw4i5Lm0mfBlmatmK0/view?usp=sharing) and extract the files into the *data/effect_frames* folder.
 
 Store both the annotation file and features in the *data/* folder. Videos can be saved anywhere, as they are only used for feature extraction and visualization. The *data/* folder should be organized as follows:
 
