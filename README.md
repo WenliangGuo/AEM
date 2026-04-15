@@ -127,11 +127,13 @@ CUDA_VISIBLE_DEVICES=0 python eval.py configs/coffee.yaml CHECKPOINT_PATH --use_
 ## Citation
 
 ```bibtex
-@article{guo2025procedural,
+@inproceedings{
+  guo2026procedural,
   title={Procedural Mistake Detection via Action Effect Modeling},
-  author={Guo, Wenliang and Pu, Yujiang and Kong, Yu},
-  journal={arXiv preprint arXiv:2512.03474},
-  year={2025}
+  author={Wenliang Guo and Yujiang Pu and Yu Kong},
+  booktitle={The Fourteenth International Conference on Learning Representations},
+  year={2026},
+  url={https://openreview.net/forum?id=HsB5EuQOoS}
 }
 ```
 
