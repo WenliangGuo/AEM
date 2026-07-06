@@ -143,12 +143,12 @@ def truncate_feats(
     truncate_data_dict['labels'] = truncate_data_dict['labels'][seg_idx].clone()
     # error labels: N
     truncate_data_dict['labels_error'] = truncate_data_dict['labels_error'][seg_idx].clone()
-    # vlm info
-    if 'visual_info' in data_dict:
+    # visual info
+    if data_dict.get('visual_info') is not None:
         truncate_data_dict['visual_info'] = [truncate_data_dict['visual_info'][i]
                           for i in range(len(data_dict['visual_info'])) if seg_idx[i].item()]
     # scene graph
-    if 'scene_graph' in data_dict:
+    if data_dict.get('scene_graph') is not None:
         truncate_data_dict['scene_graph'] = [truncate_data_dict['scene_graph'][i]
                           for i in range(len(data_dict['scene_graph'])) if seg_idx[i].item()]
     

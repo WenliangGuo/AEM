@@ -11,7 +11,7 @@ dataset: {
   max_seq_len: 2304,
   background_ratio: 1.0,
   task: tea,
-  root_dir: data/
+  root_dir: data/egoper
 }
 model: {
   fpn_type: identity,
@@ -62,4 +62,4 @@ test_cfg: {
   min_score: 0.001,
   multiclass_nms: True,
 }
-output_folder: ckpt/
+output_folder: checkpoints/egoper/

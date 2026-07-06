@@ -64,16 +64,16 @@ class EgoPERdataset(Dataset):
         visual_annot = None
         scene_graph = None
         if self.load_pre_data:
-            with open(f"data/detection/{task}_detection.json", 'r') as fp:
+            with open(os.path.join(root_dir, 'detection', f"{task}_detection.json"), 'r') as fp:
                 vlm_data = json.load(fp)
                 visual_annot = vlm_data[task]
             scene_graph = np.load(
-                f"data/scene_graph_npy/{task}_gpt4o.npy",
+                os.path.join(root_dir, 'scene_graph_npy', f"{task}_gpt4o.npy"),
                 allow_pickle=True
             ).item()
             effect_frame_dict = np.load(
-                f"data/effect_frames/effect_frames_{task}.npz",
-                allow_pickle = False
+                os.path.join(root_dir, 'effect_frames', f"effect_frames_{task}.npz"),
+                allow_pickle=False
             )
         
         # Process annotations

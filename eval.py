@@ -15,6 +15,7 @@ from libs.modeling import make_meta_arch
 from libs.utils import fix_random_seed
 from metric import calculate_micro_auc, evaluate_ed, evaluate_seg
 from libs.datasets.clip_encode import action_tokenize_egoper
+from libs.datasets.clip_encode_ccp4d import action_tokenize_ccp4d
 
 warnings.filterwarnings("ignore")
 
@@ -70,19 +71,30 @@ def main(args):
         test_dataset, False, None, 1, cfg['loader']['num_workers']
     )
 
-    # load annotation
-    with open("data/annotation.json", 'r') as fp:
-        all_annot = json.load(fp)
-    task_annot = all_annot[cfg['dataset']['task']]
-
     ## move clip model to device
     clip_model = (clip_model[0].to(cfg['devices'][0]), clip_model[1], clip_model[2])
-    action_tokens = action_tokenize_egoper(
-        clip_model,
-        cfg['dataset']['task'],
-        annot=task_annot,
-        device=cfg['devices'][0]
-    )
+
+    # tokenize the recipe's / task's action prompts
+    if cfg['dataset_name'] == 'CaptainCook4D':
+        with open(os.path.join(cfg["dataset"]["root_dir"], "activity_step_collection.json"), 'r') as fp:
+            activity_step_collection = json.load(fp)
+        with open(os.path.join(cfg["dataset"]["root_dir"], "step_id_mapping.json"), 'r') as fp:
+            step_id_mapping = json.load(fp)
+        action_tokens, num_classes = action_tokenize_ccp4d(
+            clip_model, cfg['dataset']['task'],
+            activity_step_collection, step_id_mapping, device=cfg['devices'][0]
+        )
+        cfg['model']['num_classes'] = num_classes
+    else:
+        with open(os.path.join(cfg["dataset"]["root_dir"], "annotation.json"), 'r') as fp:
+            all_annot = json.load(fp)
+        task_annot = all_annot[cfg['dataset']['task']]
+        action_tokens = action_tokenize_egoper(
+            clip_model,
+            cfg['dataset']['task'],
+            annot=task_annot,
+            device=cfg['devices'][0]
+        )
 
     """3. create model and evaluator"""
     # model

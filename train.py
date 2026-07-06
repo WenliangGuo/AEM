@@ -16,6 +16,7 @@ from libs.modeling import make_meta_arch
 from libs.utils import (train_one_epoch, valid_one_epoch, save_checkpoint,
                         make_optimizer, make_scheduler, fix_random_seed, ModelEma)
 from libs.datasets.clip_encode import action_tokenize_egoper
+from libs.datasets.clip_encode_ccp4d import action_tokenize_ccp4d
 
 warnings.filterwarnings("ignore")
 
@@ -117,19 +118,34 @@ def main(args):
     train_dataset = make_dataset(cfg['dataset_name'], True, clip_model, cfg['train_split'], args.use_gcn, **cfg['dataset'])
     train_loader = make_data_loader(train_dataset, True, rng_generator, **cfg['loader'])
 
-    val_dataset = make_dataset(cfg['dataset_name'], False, clip_model, cfg['val_split'], args.use_gcn, **cfg['dataset'])
+    # CaptainCook4D is trained/tested per recipe and has no separate validation split.
+    if cfg['dataset_name'] == 'CaptainCook4D':
+        val_dataset = make_dataset(cfg['dataset_name'], False, clip_model, cfg['test_split'], args.use_gcn, **cfg['dataset'])
+    else:
+        val_dataset = make_dataset(cfg['dataset_name'], False, clip_model, cfg['val_split'], args.use_gcn, **cfg['dataset'])
     val_loader = make_data_loader(val_dataset, False, None, 1, cfg['loader']['num_workers'])
 
     # Load annotations and tokenize actions
-    with open("data/annotation.json", 'r') as fp:
-        all_annot = json.load(fp)
-    task_annot = all_annot[cfg['dataset']['task']]
-    action_tokens = action_tokenize_egoper(
-        clip_model, 
-        cfg['dataset']['task'], 
-        annot=task_annot, 
-        device="cuda"
-    )
+    if cfg['dataset_name'] == 'CaptainCook4D':
+        with open(os.path.join(cfg["dataset"]["root_dir"], "activity_step_collection.json"), 'r') as fp:
+            activity_step_collection = json.load(fp)
+        with open(os.path.join(cfg["dataset"]["root_dir"], "step_id_mapping.json"), 'r') as fp:
+            step_id_mapping = json.load(fp)
+        action_tokens, num_classes = action_tokenize_ccp4d(
+            clip_model, cfg['dataset']['task'],
+            activity_step_collection, step_id_mapping, device="cuda"
+        )
+        cfg['model']['num_classes'] = num_classes
+    else:
+        with open(os.path.join(cfg["dataset"]["root_dir"], "annotation.json"), 'r') as fp:
+            all_annot = json.load(fp)
+        task_annot = all_annot[cfg['dataset']['task']]
+        action_tokens = action_tokenize_egoper(
+            clip_model,
+            cfg['dataset']['task'],
+            annot=task_annot,
+            device="cuda"
+        )
 
     """3. Create model, optimizer, and scheduler"""
     cfg['model']['backbone_type'] = 'convGCNTransformer' if args.use_gcn else 'convTransformer'

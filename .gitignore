@@ -1,5 +1,30 @@
+# -------------------------------------------------
+# Model checkpoints (trained outputs + downloaded)
+# -------------------------------------------------
 ckpt/
 checkpoints/
+
+# -------------------------------------------------
+# Large data files - download from Google Drive, do not commit
+# -------------------------------------------------
+# I3D video features (EgoPER: data/egoper/<task>/features_10fps/,
+#                     CaptainCook4D: data/captaincook4d/I3D_features_10fps/).
+# No trailing slash so real folders AND symlinks to external storage are ignored.
+data/**/features_10fps
+data/**/*_features_10fps
+# Effect frames (EgoPER + CaptainCook4D)
+data/**/effect_frames
+
+# -------------------------------------------------
+# Build artifacts (from the libs/utils NMS compile step)
+# -------------------------------------------------
+build/
+dist/
+*.egg
+*.egg-info/
+*.so
+*.o
+
 # -------------------------------------------------
 # Python
 # -------------------------------------------------
