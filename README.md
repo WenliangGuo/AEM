@@ -4,6 +4,8 @@
 
 [Wenliang Guo](https://wenliangguo.github.io/), [Yujiang Pu](https://www.yujiangpu.com/), [Yu Kong](https://www.egr.msu.edu/~yukong/).
 
+🔥 **Update**: [07/07/2026] We included data preparation into this repository, including the code for object detection, scene-graph generation and feature extraction.
+
 🔥 **Update**: [07/04/2026] We included CaptainCook4D dataset into this repository, including the code for data preparation, model training and evaluation.
 
 <p align="center">
@@ -48,6 +50,12 @@ cd ../..
 Note: recompile whenever you update PyTorch.
 
 ## Data Preparation
+
+The `detection/`, `scene_graph_npy/` and `scene_graph_json/` folders are already
+provided in this repo, so the steps below only cover the data you need to
+download. If you want to **regenerate** the VLM object detections and symbolic
+scene graphs yourself, see [`data_preparation/`](data_preparation/) — a set of
+self-contained scripts (one pipeline per dataset) with a step-by-step README.
 
 ### EgoPER
 
