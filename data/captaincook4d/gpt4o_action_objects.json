@@ -1,0 +1,1462 @@
+{
+    "Microwave Egg Sandwich": {
+        "Coat a 6-oz. ramekin cup with cooking spray": {
+            "objectA": "ramekin cup",
+            "objectB": "cooking spray"
+        },
+        "Pour 1 egg into the ramekin cup": {
+            "objectA": "egg",
+            "objectB": "ramekin cup"
+        },
+        "Microwave the ramekin cup uncovered on high for 30 seconds": {
+            "objectA": "ramekin cup",
+            "objectB": "microwave"
+        },
+        "Cut the English muffin into two pieces with a knife": {
+            "objectA": "English muffin",
+            "objectB": "knife"
+        },
+        "stir the ramekin cup": {
+            "objectA": "egg in the ramekin cup",
+            "objectB": "spoon or fork"
+        },
+        "Continue to Microwave for 15-30 more seconds or until the egg is almost set": {
+            "objectA": "egg",
+            "objectB": "microwave"
+        },
+        "Top cup with 1 tablespoon of salsa": {
+            "objectA": "salsa",
+            "objectB": "ramekin cup"
+        },
+        "sprinkle 1 tablespoon of cheese on cup": {
+            "objectA": "cheese",
+            "objectB": "ramekin cup"
+        },
+        "Microwave just until cheese melts, about 10 seconds": {
+            "objectA": "cheese",
+            "objectB": "microwave"
+        },
+        "Line the bottom piece of the English muffin with lettuce": {
+            "objectA": "lettuce",
+            "objectB": "bottom piece of English muffin"
+        },
+        "Place the egg from the cup over the lettuce": {
+            "objectA": "egg",
+            "objectB": "lettuce"
+        },
+        "replace the top of the English muffin": {
+            "objectA": "top piece of English muffin",
+            "objectB": "egg and lettuce"
+        }
+    },
+    "Dressed Up Meatballs": {
+        "Place 5 meatballs in a Microwave-safe plate": {
+            "objectA": "meatballs",
+            "objectB": "microwave-safe plate"
+        },
+        "Peel 1 garlic clove": {
+            "objectA": "garlic clove",
+            "objectB": "peeler"
+        },
+        "Mix 1/4 cup sweet-and-sour sauce and 1/2 teaspoon soy sauce in a small bowl": {
+            "objectA": "sweet-and-sour sauce and soy sauce",
+            "objectB": "small bowl"
+        },
+        "Peel one medium onion": {
+            "objectA": "onion",
+            "objectB": "peeler"
+        },
+        "Cut 1/8 garlic clove": {
+            "objectA": "garlic clove",
+            "objectB": "knife"
+        },
+        "Mince 1/8 garlic clove": {
+            "objectA": "garlic clove",
+            "objectB": "knife"
+        },
+        "Cut onion into two pieces": {
+            "objectA": "onion",
+            "objectB": "knife"
+        },
+        "Cut 1/4 medium carrot into short, thin strips": {
+            "objectA": "carrot",
+            "objectB": "knife"
+        },
+        "Slice 1/8 medium onion": {
+            "objectA": "onion",
+            "objectB": "knife"
+        },
+        "Top the plate with the carrots, onion, garlic and 1/4 tsp pepper powder": {
+            "objectA": "carrots, onion, garlic, pepper powder",
+            "objectB": "plate"
+        },
+        "Pour the sauces over the meatballs": {
+            "objectA": "sauces",
+            "objectB": "meatballs"
+        },
+        "Microwave the plate, covered, on high for 1.5 minutes": {
+            "objectA": "plate",
+            "objectB": "microwave"
+        },
+        "Stir the contents in the microwave with a spoon": {
+            "objectA": "contents of the plate",
+            "objectB": "spoon"
+        },
+        "Microwave for 1 more minute": {
+            "objectA": "plate",
+            "objectB": "microwave"
+        }
+    },
+    "Microwave Mug Pizza": {
+        "Take a microwavable mug": {
+            "objectA": "microwavable mug",
+            "objectB": "cupboard or countertop"
+        },
+        "Measure 1/16 teaspoon of baking soda and add it to the mug": {
+            "objectA": "baking soda",
+            "objectB": "mug"
+        },
+        "Measure 1/8 teaspoon of salt and add it to the mug": {
+            "objectA": "salt",
+            "objectB": "mug"
+        },
+        "Measure 1/8 teaspoon of baking powder and add it to the mug": {
+            "objectA": "baking powder",
+            "objectB": "mug"
+        },
+        "Measure 4 tablespoons of flour and add it to the mug": {
+            "objectA": "flour",
+            "objectB": "mug"
+        },
+        "Stir the contents in the mug well": {
+            "objectA": "mixture",
+            "objectB": "mug"
+        },
+        "Add in 3 tablespoons of milk to the mug": {
+            "objectA": "milk",
+            "objectB": "mug"
+        },
+        "1 tablespoon of olive oil to the mug": {
+            "objectA": "olive oil",
+            "objectB": "mug"
+        },
+        "Mix the contents of the mug thoroughly. (There might be some lumps, but that is ok.)": {
+            "objectA": "contents",
+            "objectB": "mug"
+        },
+        "Take 1 tablespoon of marinara sauce": {
+            "objectA": "marinara sauce",
+            "objectB": "tablespoon"
+        },
+        "spread marinara sauce around the surface of the batter": {
+            "objectA": "marinara sauce",
+            "objectB": "batter"
+        },
+        "Sprinkle 1 generous tablespoon of mozzarella cheese on top of the sauce": {
+            "objectA": "mozzarella cheese",
+            "objectB": "sauce"
+        },
+        "Sprinkle dried Italian herbs inside the mug": {
+            "objectA": "dried Italian herbs",
+            "objectB": "mug"
+        },
+        "Microwave for 1 minute 20 seconds, or until it rises and the toppings are bubbling": {
+            "objectA": "mug pizza",
+            "objectB": "microwave"
+        }
+    },
+    "Ramen": {
+        "Peel 1 garlic clove": {
+            "objectA": "garlic clove",
+            "objectB": "peeler"
+        },
+        "Chop 1 garlic clove on a cutting board": {
+            "objectA": "garlic clove",
+            "objectB": "cutting board"
+        },
+        "Remove the noodles from the package(Break Noodles / Keep them as a block)": {
+            "objectA": "noodles",
+            "objectB": "package"
+        },
+        "Peel 1 medium onion": {
+            "objectA": "medium onion",
+            "objectB": "peeler"
+        },
+        "slice 1/4 medium onion into pieces": {
+            "objectA": "medium onion",
+            "objectB": "knife or cutting board"
+        },
+        "Put all the Vegetables in a microwave-safe bowl": {
+            "objectA": "vegetables",
+            "objectB": "microwave-safe bowl"
+        },
+        "Add the noodles to the bowl": {
+            "objectA": "noodles",
+            "objectB": "bowl"
+        },
+        "cover the noodles with water": {
+            "objectA": "water",
+            "objectB": "noodles"
+        },
+        "Cover with a lid (or paper towel) to prevent splattering": {
+            "objectA": "lid or paper towel",
+            "objectB": "bowl"
+        },
+        "Microwave the ramen for 4 minutes": {
+            "objectA": "ramen",
+            "objectB": "microwave"
+        },
+        "Add basil to the bowl": {
+            "objectA": "basil",
+            "objectB": "bowl"
+        },
+        "Let the noodles sit for about 1 minute after the microwave stops": {
+            "objectA": "noodles",
+            "objectB": "microwave"
+        },
+        "Add chopped cilantro to the bowl": {
+            "objectA": "chopped cilantro",
+            "objectB": "bowl"
+        },
+        "Mix in the flavour packet to the bowl": {
+            "objectA": "flavour packet",
+            "objectB": "bowl"
+        },
+        "Stir noodles with a spoon or fork until the flavouring dissolves": {
+            "objectA": "noodles",
+            "objectB": "spoon or fork"
+        }
+    },
+    "Coffee": {
+        "Measure 12 ounces of cold water": {
+            "objectA": "cold water",
+            "objectB": "measuring container"
+        },
+        "Place the dripper on top of a coffee mug": {
+            "objectA": "dripper",
+            "objectB": "coffee mug"
+        },
+        "Weigh the coffee beans (0.8oz-0.12 oz)": {
+            "objectA": "coffee beans",
+            "objectB": "scale"
+        },
+        "Grind the coffee beans until the coffee grounds are the consistency of coarse sand, about 20 seconds": {
+            "objectA": "coffee beans",
+            "objectB": "grinder"
+        },
+        "Prepare the filter insert by folding the paper filter in half to create a semi-circle, and in half again to create a quarter-circle": {
+            "objectA": "paper filter",
+            "objectB": "hands"
+        },
+        "transfer water to a kettle": {
+            "objectA": "water",
+            "objectB": "kettle"
+        },
+        "Place the paper filter in the dripper": {
+            "objectA": "paper filter",
+            "objectB": "dripper"
+        },
+        "Boil the water. (While the water is boiling, assemble the filter cone)": {
+            "objectA": "water",
+            "objectB": "kettle"
+        },
+        "spread open filter in dripper to create a cone": {
+            "objectA": "paper filter",
+            "objectB": "dripper"
+        },
+        "Once the water has boiled, check the temperature of the water": {
+            "objectA": "water",
+            "objectB": "thermometer"
+        },
+        "Transfer the grounds to the filter cone": {
+            "objectA": "coffee grounds",
+            "objectB": "filter cone"
+        },
+        "Pour a small amount of water into the filter to wet the grounds": {
+            "objectA": "water",
+            "objectB": "filter"
+        },
+        "Wait about 30 seconds for the coffee to bloom": {
+            "objectA": "coffee grounds",
+            "objectB": "filter"
+        },
+        "Slowly pour the rest of the water over the grounds in a circular motion. Do not overfill beyond the top of the paper filter": {
+            "objectA": "water",
+            "objectB": "coffee grounds"
+        },
+        "Let the coffee drain completely into the mug before removing the dripper": {
+            "objectA": "coffee",
+            "objectB": "mug"
+        },
+        "Discard the paper filter and coffee grounds": {
+            "objectA": "paper filter and coffee grounds",
+            "objectB": "trash can"
+        }
+    },
+    "Breakfast Burritos": {
+        "Extract and add contents of an egg to a microwave-safe bowl": {
+            "objectA": "egg",
+            "objectB": "microwave-safe bowl"
+        },
+        "Whisk the egg": {
+            "objectA": "egg",
+            "objectB": "whisk"
+        },
+        "Place 8 inch tortilla on a cutting board": {
+            "objectA": "tortilla",
+            "objectB": "cutting board"
+        },
+        "Microwave for 3 minutes, stirring in between": {
+            "objectA": "whisked egg",
+            "objectB": "microwave"
+        },
+        "Add 1/2 tbsp sweet and sour sauce to the bowl": {
+            "objectA": "sweet and sour sauce",
+            "objectB": "bowl"
+        },
+        "Sprinkle oregano in the bowl": {
+            "objectA": "oregano",
+            "objectB": "bowl"
+        },
+        "Add 1 tbsp salsa to the bowl": {
+            "objectA": "salsa",
+            "objectB": "bowl"
+        },
+        "Mix the contents of the bowl well": {
+            "objectA": "contents",
+            "objectB": "bowl"
+        },
+        "Pour egg mixture on top of the tortilla": {
+            "objectA": "egg mixture",
+            "objectB": "tortilla"
+        },
+        "Sprinkle 1 tbsp shredded cheddar cheese on top of the egg": {
+            "objectA": "shredded cheddar cheese",
+            "objectB": "egg"
+        },
+        "Roll the tortilla from one end to another into a log shape": {
+            "objectA": "tortilla",
+            "objectB": "cutting board"
+        }
+    },
+    "Spiced Hot Chocolate": {
+        "Fill a microwave-safe mug with skimmed milk": {
+            "objectA": "milk",
+            "objectB": "mug"
+        },
+        "Microwave the contents of the mug for 1 minute": {
+            "objectA": "mug",
+            "objectB": "microwave"
+        },
+        "Add 2 pieces of chocolate to the mug": {
+            "objectA": "chocolate",
+            "objectB": "mug"
+        },
+        "Add 1/5 teaspoon cinnamon to the mug": {
+            "objectA": "cinnamon",
+            "objectB": "mug"
+        },
+        "Add 1 teaspoon of white sugar to the mug": {
+            "objectA": "white sugar",
+            "objectB": "mug"
+        },
+        "Mix the contents of the mug": {
+            "objectA": "mixture",
+            "objectB": "mug"
+        },
+        "Heat the contents of the mug for 1 minute and serve": {
+            "objectA": "mug",
+            "objectB": "microwave"
+        }
+    },
+    "Microwave French Toast": {
+        "Cut or tear 1 slices of bread into bite-size pieces": {
+            "objectA": "bread",
+            "objectB": "knife or hands"
+        },
+        "In a large mug, melt 1 tablespoon of softened butter in the microwave for about 30 seconds": {
+            "objectA": "softened butter",
+            "objectB": "microwave"
+        },
+        "Roll the butter around in the mug to coat it": {
+            "objectA": "butter",
+            "objectB": "mug"
+        },
+        "In the mug, whisk one egg with a fork until well blended": {
+            "objectA": "egg",
+            "objectB": "fork"
+        },
+        "Sprinkle 1/4 teaspoon cinnamon over the egg": {
+            "objectA": "cinnamon",
+            "objectB": "egg"
+        },
+        "Add 1/4 teaspoon vanilla extract to the mug": {
+            "objectA": "vanilla extract",
+            "objectB": "mug"
+        },
+        "stir the mug": {
+            "objectA": "contents of the mug",
+            "objectB": "spoon"
+        },
+        "add bread pieces to the egg mixture in the mug, pressing the bread down into the egg": {
+            "objectA": "bread pieces",
+            "objectB": "egg mixture"
+        },
+        "Microwave on high for 90 seconds until the egg is cooked through": {
+            "objectA": "mug",
+            "objectB": "microwave"
+        },
+        "Put the mug's contents on a plate": {
+            "objectA": "french toast",
+            "objectB": "plate"
+        },
+        "cut the contents on plate, and serve": {
+            "objectA": "french toast",
+            "objectB": "plate"
+        }
+    },
+    "Pinwheels": {
+        "Place 8-inch flour tortilla on cutting board": {
+            "objectA": "8-inch flour tortilla",
+            "objectB": "cutting board"
+        },
+        "Use a butter knife to scoop nut butter from the jar": {
+            "objectA": "nut butter",
+            "objectB": "jar"
+        },
+        "Spread nut butter onto the tortilla, leaving 1/2-inch uncovered at the edges": {
+            "objectA": "nut butter",
+            "objectB": "tortilla"
+        },
+        "Clean the knife by wiping with a paper towel": {
+            "objectA": "knife",
+            "objectB": "paper towel"
+        },        
+        "Clean the knife by wiping it with a paper towel": {
+            "objectA": "knife",
+            "objectB": "paper towel"
+        },
+        "Use the knife to scoop jelly from the jar": {
+            "objectA": "jelly",
+            "objectB": "jar"
+        },
+        "Spread jelly over the nut butter": {
+            "objectA": "jelly",
+            "objectB": "nut butter"
+        },
+        "Roll the tortilla from one end to the other into a log shape, about 1.5 inches thick": {
+            "objectA": "tortilla",
+            "objectB": "cutting board"
+        },
+        "Secure the rolled tortilla by inserting 5 toothpicks about 1 inch apart": {
+            "objectA": "rolled tortilla",
+            "objectB": "toothpicks"
+        },
+        "Trim the ends of the tortilla roll with the butter knife, leaving 1/2 inch margin between the last toothpick and the end of the roll": {
+            "objectA": "tortilla roll",
+            "objectB": "butter knife"
+        },
+        "Discard ends of the tortilla": {
+            "objectA": "ends of the tortilla",
+            "objectB": "trash can"
+        },
+        "Slide floss under the tortilla, perpendicular to the length of the roll": {
+            "objectA": "floss",
+            "objectB": "tortilla roll"
+        },
+        "Place the floss halfway between toothpicks": {
+            "objectA": "floss",
+            "objectB": "toothpicks"
+        },
+        "Cross the floss's two ends over the tortilla roll's top": {
+            "objectA": "floss ends",
+            "objectB": "tortilla roll"
+        },
+        "pull the floss ends in opposite directions to slice": {
+            "objectA": "floss ends",
+            "objectB": "tortilla roll"
+        },
+        "Continue slicing with floss to create 1 more pinwheel": {
+            "objectA": "floss",
+            "objectB": "tortilla roll"
+        },
+        "Place the pinwheels on a plate": {
+            "objectA": "pinwheels",
+            "objectB": "plate"
+        }
+    },
+    "Tomato Mozzarella Salad": {
+        "Rinse a tomato": {
+            "objectA": "tomato",
+            "objectB": "running water"
+        },
+        "gently dry it with a paper/tea towel": {
+            "objectA": "tomato",
+            "objectB": "paper/tea towel"
+        },
+        "Slice one tomato into about 1/2 inch thick slices": {
+            "objectA": "tomato",
+            "objectB": "knife or cutting board"
+        },
+        "Place the thick slices of tomatoes on a platter, ensuring they only make a single layer": {
+            "objectA": "tomato slices",
+            "objectB": "platter"
+        },
+        "Sprinkle mozzarella cheese on top of the tomato throughout the platter": {
+            "objectA": "mozzarella cheese",
+            "objectB": "tomato slices"
+        },
+        "Season the tomato slices with salt": {
+            "objectA": "salt",
+            "objectB": "tomato slices"
+        },
+        "Season platter with 1/4 teaspoon black pepper": {
+            "objectA": "black pepper",
+            "objectB": "platter"
+        },
+        "Garnish platter with italian seasoning": {
+            "objectA": "italian seasoning",
+            "objectB": "platter"
+        },
+        "Add a drizzle of extra-virgin olive oil, about 1 tablespoon, over the entire platter": {
+            "objectA": "extra-virgin olive oil",
+            "objectB": "platter"
+        }
+    },
+    "Butter Corn Cup": {
+        "Measure 2 cups of frozen corn": {
+            "objectA": "frozen corn",
+            "objectB": "measuring cup"
+        },
+        "Thaw the frozen corn by putting it in a sieve and running it under cold water": {
+            "objectA": "frozen corn",
+            "objectB": "sieve"
+        },
+        "Add the corn into a microwave-safe bowl": {
+            "objectA": "corn",
+            "objectB": "microwave-safe bowl"
+        },
+        "Microwave the corn for 2 minutes": {
+            "objectA": "corn",
+            "objectB": "microwave"
+        },
+        "Add 1 teaspoon of softened butter": {
+            "objectA": "softened butter",
+            "objectB": "bowl"
+        },
+        "1 teaspoon of pepper powder to the bowl": {
+            "objectA": "pepper powder",
+            "objectB": "bowl"
+        },
+        "then stir the bowl": {
+            "objectA": "contents of the bowl",
+            "objectB": "spoon"
+        },
+        "Microwave the corn for 3 more minutes": {
+            "objectA": "corn",
+            "objectB": "microwave"
+        },
+        "Extract lime juice from 1/3 lime": {
+            "objectA": "lime",
+            "objectB": "juicer"
+        },
+        "Add 1 teaspoon salt to the bowl": {
+            "objectA": "salt",
+            "objectB": "bowl"
+        },
+        "add lime juice to the bowl": {
+            "objectA": "lime juice",
+            "objectB": "bowl"
+        },
+        "Mix the contents of the bowl well": {
+            "objectA": "mixture",
+            "objectB": "bowl"
+        }
+    },
+    "Tomato Chutney": {
+        "Peel 4 large garlic cloves": {
+            "objectA": "garlic cloves",
+            "objectB": "peeler"
+        },
+        "mince the garlic": {
+            "objectA": "garlic",
+            "objectB": "knife"
+        },
+        "Take 1 tomato": {
+            "objectA": "tomato",
+            "objectB": "cutting board"
+        },
+        "Chop tomato roughly (anysize chunks are fine)": {
+            "objectA": "tomato",
+            "objectB": "knife"
+        },
+        "puree tomatoes without any water in a blender/mixer": {
+            "objectA": "tomatoes",
+            "objectB": "blender/mixer"
+        },
+        "Heat 3 tbsp oil in a pan over medium heat": {
+            "objectA": "oil",
+            "objectB": "pan"
+        },
+        "1/2 tsp cumin seeds to the pan": {
+            "objectA": "cumin seeds",
+            "objectB": "pan"
+        },
+        "Add 1/4 tsp mustard to the pan": {
+            "objectA": "mustard",
+            "objectB": "pan"
+        },
+        "When mustard and cumin seeds begin to sizzle, add minced garlic": {
+            "objectA": "minced garlic",
+            "objectB": "pan"
+        },
+        "Lower the heat": {
+            "objectA": "heat",
+            "objectB": "stove or burner"
+        },
+        "Saute the garlic for 2-3 minutes": {
+            "objectA": "garlic",
+            "objectB": "pan"
+        },
+        "Add 2 tbsp red chili powder to the pan": {
+            "objectA": "red chili powder",
+            "objectB": "pan"
+        },
+        "mix well contents of the pan": {
+            "objectA": "contents of the pan",
+            "objectB": "pan"
+        },
+        "Add tomato puree to the pan": {
+            "objectA": "tomato puree",
+            "objectB": "pan"
+        },
+        "1/2 tsp salt to the pan": {
+            "objectA": "salt",
+            "objectB": "pan"
+        },
+        "Mix well tomato puree with contents in the pan": {
+            "objectA": "tomato puree",
+            "objectB": "contents in the pan"
+        },
+        "Allow the mixture to simmer over low heat for 5 minutes or until the mixture becomes thick": {
+            "objectA": "mixture",
+            "objectB": "heat"
+        },
+        "Take the pan off the heat": {
+            "objectA": "pan",
+            "objectB": "heat"
+        },
+        "Transfer it to a serving bowl": {
+            "objectA": "tomato chutney",
+            "objectB": "serving bowl"
+        }
+    },
+    "Scrambled Eggs": {
+        "Chop 1/4 medium onion": {
+            "objectA": "onion",
+            "objectB": "knife"
+        },
+        "Chop 1 tsp cilantro": {
+            "objectA": "cilantro",
+            "objectB": "knife"
+        },
+        "Chop 1/4 tomato": {
+            "objectA": "tomato",
+            "objectB": "knife"
+        },
+        "Chop 1 green chilli": {
+            "objectA": "green chilli",
+            "objectB": "knife"
+        },
+        "Peel 2 garlic cloves": {
+            "objectA": "garlic cloves",
+            "objectB": "peeler"
+        },
+        "Mince peeled garlic cloves": {
+            "objectA": "peeled garlic cloves",
+            "objectB": "knife"
+        },
+        "Crack one egg in the bowl": {
+            "objectA": "egg",
+            "objectB": "bowl"
+        },
+        "add 1 tbsp milk to the bowl": {
+            "objectA": "milk",
+            "objectB": "bowl"
+        },
+        "add 1/3 tsp salt to the bowl": {
+            "objectA": "salt",
+            "objectB": "bowl"
+        },
+        "Whisk the egg mixture in the bowl": {
+            "objectA": "egg mixture",
+            "objectB": "bowl"
+        },
+        "Heat 2 tbsp oil in a heavy-bottomed or nonstick pan on medium heat": {
+            "objectA": "oil",
+            "objectB": "pan"
+        },
+        "add 1/3 tsp salt to the pan": {
+            "objectA": "salt",
+            "objectB": "pan"
+        },
+        "add chopped onions to the pan": {
+            "objectA": "chopped onions",
+            "objectB": "pan"
+        },
+        "Saute the onions on medium heat until they are soft and translucent": {
+            "objectA": "onions",
+            "objectB": "pan"
+        },
+        "Add garlic to the pan": {
+            "objectA": "garlic",
+            "objectB": "pan"
+        },
+        "Add chilli to the pan": {
+            "objectA": "chilli",
+            "objectB": "pan"
+        },
+        "Cook for 1 minute, mixing everything": {
+            "objectA": "onions, garlic, chilli",
+            "objectB": "pan"
+        },
+        "Add 1/8 tsp of turmeric to the pan": {
+            "objectA": "turmeric",
+            "objectB": "pan"
+        },
+        "Add tomatoes to the pan": {
+            "objectA": "tomatoes",
+            "objectB": "pan"
+        },
+        "Cook covered for 1 minute or until the tomatoes soften": {
+            "objectA": "tomatoes",
+            "objectB": "pan"
+        },
+        "Slowly pour the whisked eggs into the pan": {
+            "objectA": "whisked eggs",
+            "objectB": "pan"
+        },
+        "Keep mixing with a spatula for 3 minutes or until the eggs are almost cooked": {
+            "objectA": "eggs",
+            "objectB": "spatula"
+        },
+        "Garnish with 1 tbsp chopped cilantro and serve": {
+            "objectA": "chopped cilantro",
+            "objectB": "scrambled eggs"
+        }
+    },
+    "Cucumber Raita": {
+        "In a mixing bowl, whisk 1 cup of chilled curd until smooth. Use fresh homemade or packaged curd": {
+            "objectA": "curd",
+            "objectB": "mixing bowl"
+        },
+        "1/4 teaspoon of red chilli powder to the bowl": {
+            "objectA": "red chilli powder",
+            "objectB": "bowl"
+        },
+        "Rinse 1 medium sized cucumber": {
+            "objectA": "cucumber",
+            "objectB": "running water"
+        },
+        "1/2 teaspoon of chaat masala powder to the bowl": {
+            "objectA": "chaat masala powder",
+            "objectB": "bowl"
+        },
+        "peel the cucumber": {
+            "objectA": "cucumber",
+            "objectB": "peeler"
+        },
+        "Add 1 teaspoon of cumin powder to the bowl": {
+            "objectA": "cumin powder",
+            "objectB": "bowl"
+        },
+        "chop or grate the cucumber": {
+            "objectA": "cucumber",
+            "objectB": "knife or grater"
+        },
+        "add 1 tablespoon of chopped cilantro leaves to the bowl": {
+            "objectA": "chopped cilantro leaves",
+            "objectB": "bowl"
+        },
+        "1/4 teaspoon salt to the bowl": {
+            "objectA": "salt",
+            "objectB": "bowl"
+        },
+        "Add the chopped or grated cucumber to the whisked curd": {
+            "objectA": "chopped or grated cucumber",
+            "objectB": "bowl"
+        },
+        "Combine all the ingredients in the bowl": {
+            "objectA": "ingredients",
+            "objectB": "bowl"
+        }
+    },
+    "Zoodles": {
+        "Spiralize 1 medium zucchini into thin noodles using a spiralizer": {
+            "objectA": "zucchini",
+            "objectB": "spiralizer"
+        },
+        "Peel 1 garlic cloves": {
+            "objectA": "garlic clove",
+            "objectB": "peeler"
+        },
+        "Heat a large pan on medium heat": {
+            "objectA": "pan",
+            "objectB": "stove or burner"
+        },
+        "Melt 1 tablespoons of softened butter": {
+            "objectA": "softened butter",
+            "objectB": "pan"
+        },
+        "Add 1 large minced garlic cloves to the pan": {
+            "objectA": "minced garlic",
+            "objectB": "pan"
+        },
+        "Cook garlic until fragrant (about 1 minutes). Be careful not to burn garlic": {
+            "objectA": "minced garlic",
+            "objectB": "pan"
+        },
+        "Add the zucchini noodles": {
+            "objectA": "zucchini noodles",
+            "objectB": "pan"
+        },
+        "1/6 cup grated parmesan cheese": {
+            "objectA": "parmesan cheese",
+            "objectB": "pan"
+        },
+        "season with salt": {
+            "objectA": "salt",
+            "objectB": "zoodles"
+        },
+        "pepper to taste": {
+            "objectA": "pepper",
+            "objectB": "zoodles"
+        },
+        "Cook for 2 minutes or until the zoodles are done": {
+            "objectA": "zoodles",
+            "objectB": "pan"
+        },
+        "Remove from heat": {
+            "objectA": "zoodles",
+            "objectB": "heat source"
+        },
+        "Top with more parmesan if desired": {
+            "objectA": "parmesan",
+            "objectB": "zoodles"
+        }
+    },
+    "Sauted Mushrooms": {
+        "Rinse 3 mushrooms under cold water": {
+            "objectA": "mushrooms",
+            "objectB": "cold water"
+        },
+        "Peel 2 garlic cloves": {
+            "objectA": "garlic cloves",
+            "objectB": "peeler"
+        },
+        "Chop 1 shallot": {
+            "objectA": "shallot",
+            "objectB": "knife"
+        },
+        "pat rinsed mushrooms dry with a paper towel": {
+            "objectA": "mushrooms",
+            "objectB": "paper towel"
+        },
+        "Pull out mushroom stems": {
+            "objectA": "mushroom stems",
+            "objectB": "mushrooms"
+        },
+        "Slice the mushrooms": {
+            "objectA": "mushrooms",
+            "objectB": "knife"
+        },
+        "mince garlic cloves": {
+            "objectA": "garlic cloves",
+            "objectB": "knife"
+        },
+        "Heat 1 tbsp olive oil in a large skillet over medium-high heat": {
+            "objectA": "olive oil",
+            "objectB": "pan"
+        },
+        "Once the pan is hot, add the mushrooms": {
+            "objectA": "mushrooms",
+            "objectB": "pan"
+        },
+        "cook for 3-5 minutes, stirring often, until mushrooms start to soften and brown": {
+            "objectA": "mushrooms",
+            "objectB": "pan"
+        },
+        "Add chopped shallot to the pan": {
+            "objectA": "chopped shallot",
+            "objectB": "pan"
+        },
+        "cook the pan, often stirring, for 1 minute": {
+            "objectA": "mushrooms and shallots",
+            "objectB": "pan"
+        },
+        "Add 2 cloves of minced garlic to the pan": {
+            "objectA": "minced garlic",
+            "objectB": "pan"
+        },
+        "1/4 tbsp balsamic vinegar to the pan": {
+            "objectA": "balsamic vinegar",
+            "objectB": "pan"
+        },
+        "pepper on pan to taste": {
+            "objectA": "pepper",
+            "objectB": "pan"
+        },
+        "Season pan with salt": {
+            "objectA": "salt",
+            "objectB": "pan"
+        },
+        "Transfer the contents of the pan to a serving dish": {
+            "objectA": "sauteed mushrooms",
+            "objectB": "serving dish"
+        }
+    },
+    "Blender Banana Pancakes": {
+        "Add 1 banana to a blender": {
+            "objectA": "banana",
+            "objectB": "blender"
+        },
+        "1 egg to a blender": {
+            "objectA": "egg",
+            "objectB": "blender"
+        },
+        "1/2 tsp baking powder to a blender": {
+            "objectA": "baking powder",
+            "objectB": "blender"
+        },
+        "1 heaped tbsp flour to a blender": {
+            "objectA": "flour",
+            "objectB": "blender"
+        },
+        "blitz the blender for 20 seconds": {
+            "objectA": "mixture",
+            "objectB": "blender"
+        },
+        "Melt a small knob of butter in a non-stick frying pan over low-medium heat": {
+            "objectA": "butter",
+            "objectB": "frying pan"
+        },
+        "Pour three little puddles straight from the blender into the frying pan": {
+            "objectA": "batter",
+            "objectB": "frying pan"
+        },
+        "Cook for 1 min or until the tops start to bubble": {
+            "objectA": "pancakes",
+            "objectB": "pan"
+        },
+        "Chop 1 strawberry": {
+            "objectA": "strawberry",
+            "objectB": "knife"
+        },
+        "Flip the pancakes with a fork or a fish slice spatula": {
+            "objectA": "pancakes",
+            "objectB": "fork or fish slice spatula"
+        },
+        "cook for 20-30 seconds more": {
+            "objectA": "pancakes",
+            "objectB": "pan"
+        },
+        "Transfer to a plate": {
+            "objectA": "pancakes",
+            "objectB": "plate"
+        },
+        "Serve the pancakes with chopped strawberries": {
+            "objectA": "chopped strawberries",
+            "objectB": "pancakes"
+        },
+        "splash maple syrup on plate": {
+            "objectA": "maple syrup",
+            "objectB": "plate"
+        }
+    },
+    "Herb Omelet with Fried Tomatoes": {
+        "Take a tomato": {
+            "objectA": "tomato",
+            "objectB": "cutting board"
+        },
+        "Chop 2 tbsp cilantro": {
+            "objectA": "cilantro",
+            "objectB": "knife"
+        },
+        "Cut tomato into two pieces": {
+            "objectA": "tomato",
+            "objectB": "knife"
+        },
+        "crack one egg in a bowl": {
+            "objectA": "egg",
+            "objectB": "bowl"
+        },
+        "add the chopped cilantro to the bowl": {
+            "objectA": "chopped cilantro",
+            "objectB": "bowl"
+        },
+        "1/2 tsp ground black pepper to the bowl": {
+            "objectA": "ground black pepper",
+            "objectB": "bowl"
+        },
+        "Beat the contents of the bowl": {
+            "objectA": "contents of the bowl",
+            "objectB": "bowl"
+        },
+        "Heat 1 tbsp oil in a non-stick frying pan": {
+            "objectA": "oil",
+            "objectB": "frying pan"
+        },
+        "cook the tomatoes cut-side down until they start to soften and colour": {
+            "objectA": "tomatoes",
+            "objectB": "frying pan"
+        },
+        "Scoop the tomatoes from the pan": {
+            "objectA": "tomatoes",
+            "objectB": "pan"
+        },
+        "put tomatoes on a serving plate": {
+            "objectA": "tomatoes",
+            "objectB": "serving plate"
+        },
+        "Pour the egg mixture into the pan": {
+            "objectA": "egg mixture",
+            "objectB": "pan"
+        },
+        "stir gently with a wooden spoon so the egg that sets on the base of the pan moves to enable the uncooked egg to flow into the space": {
+            "objectA": "egg mixture",
+            "objectB": "wooden spoon"
+        },
+        "Stop stirring when it's nearly cooked to allow it to set into an omelette": {
+            "objectA": "egg mixture",
+            "objectB": "wooden spoon"
+        },
+        "Transfer omelette to the plate and serve with the tomatoes": {
+            "objectA": "omelette",
+            "objectB": "plate"
+        }
+    },
+    "Broccoli Stir Fry": {
+        "Take 5 in number broccoli florets": {
+            "objectA": "broccoli florets",
+            "objectB": "cutting board"
+        },
+        "Add 1/8 teaspoon black pepper to the bowl": {
+            "objectA": "black pepper",
+            "objectB": "bowl"
+        },
+        "Add 1/8 cup soy sauce to the bowl": {
+            "objectA": "soy sauce",
+            "objectB": "bowl"
+        },
+        "Take 2 cremini mushrooms": {
+            "objectA": "cremini mushrooms",
+            "objectB": "cutting board"
+        },
+        "Add 1/6 cup water the bowl": {
+            "objectA": "water",
+            "objectB": "bowl"
+        },
+        "Add 1 teaspoon cornstarch to the bowl": {
+            "objectA": "cornstarch",
+            "objectB": "bowl"
+        },
+        "Peel 2 cloves of garlic": {
+            "objectA": "garlic",
+            "objectB": "peeler"
+        },
+        "Add 1/2 tablespoon minced ginger to the bowl": {
+            "objectA": "minced ginger",
+            "objectB": "bowl"
+        },
+        "mince garlic": {
+            "objectA": "garlic",
+            "objectB": "knife"
+        },
+        "Take 1 bell pepper": {
+            "objectA": "bell pepper",
+            "objectB": "cutting board"
+        },
+        "Add 2 cloves minced garlic to the bowl": {
+            "objectA": "minced garlic",
+            "objectB": "bowl"
+        },
+        "slice mushrooms": {
+            "objectA": "mushrooms",
+            "objectB": "knife or cutting board"
+        },
+        "Add 1 tablespoon honey to the bowl": {
+            "objectA": "honey",
+            "objectB": "bowl"
+        },
+        "Whisk the contents of bowl": {
+            "objectA": "contents of the bowl",
+            "objectB": "bowl"
+        },
+        "Set aside the sauce mixture": {
+            "objectA": "sauce mixture",
+            "objectB": "table or countertop"
+        },
+        "slice 1/3 of the bell pepper": {
+            "objectA": "bell pepper",
+            "objectB": "knife"
+        },
+        "Heat 2 tablespoons olive oil in a skillet over medium-high heat": {
+            "objectA": "olive oil",
+            "objectB": "skillet"
+        },
+        "add sliced mushrooms to the skillet": {
+            "objectA": "sliced mushrooms",
+            "objectB": "skillet"
+        },
+        "Add broccoli to the skillet": {
+            "objectA": "broccoli florets",
+            "objectB": "skillet"
+        },
+        "cook, stirring often, for 4 minutes. If the pan gets too hot on medium-high, turn the heat down to medium": {
+            "objectA": "mushrooms and broccoli",
+            "objectB": "skillet"
+        },
+        "Add bell pepper to the skillet": {
+            "objectA": "bell pepper",
+            "objectB": "skillet"
+        },
+        "continue cooking, stirring often, for 2-3 minutes, until vegetables are crisp-tender": {
+            "objectA": "vegetables",
+            "objectB": "skillet"
+        },
+        "Whisk the sauce again to recombine the ingredients": {
+            "objectA": "sauce",
+            "objectB": "bowl"
+        },
+        "Pour the sauce into the skillet": {
+            "objectA": "sauce",
+            "objectB": "skillet"
+        },
+        "cook, stirring, for 1 minute until the sauce thickens": {
+            "objectA": "stir-fry mixture",
+            "objectB": "skillet"
+        }
+    },
+    "Pan Fried Tofu": {
+        "Cut 1/4 block or 3 ounces of fresh tofu into large cubes (about 1 in x 1 in)": {
+            "objectA": "fresh tofu",
+            "objectB": "cutting board"
+        },
+        "pat tofu dry with a towel": {
+            "objectA": "tofu",
+            "objectB": "towel"
+        },
+        "Add 1 tablespoon of olive oil to a non-stick pan": {
+            "objectA": "olive oil",
+            "objectB": "non-stick pan"
+        },
+        "add the tofu cubes to the pan": {
+            "objectA": "tofu cubes",
+            "objectB": "pan"
+        },
+        "add 1/4 tsp salt to the pan": {
+            "objectA": "salt",
+            "objectB": "pan"
+        },
+        "Turn on the heat to medium": {
+            "objectA": "heat",
+            "objectB": "stove or burner (medium setting)"
+        },
+        "Cook 5 to 6 minutes until tofu cubes are lightly browned on the bottom": {
+            "objectA": "tofu cubes",
+            "objectB": "pan"
+        },
+        "Briefly remove the pan from the heat to reduce spitting": {
+            "objectA": "pan",
+            "objectB": "heat"
+        },
+        "Flip the tofu with tongs": {
+            "objectA": "tofu",
+            "objectB": "tongs"
+        },
+        "Return the heat to medium": {
+            "objectA": "pan",
+            "objectB": "heat"
+        },
+        "cook until tofu turns brown": {
+            "objectA": "tofu",
+            "objectB": "pan"
+        },
+        "Briefly remove from the heat again": {
+            "objectA": "pan",
+            "objectB": "heat"
+        },
+        "drizzle 1 tablespoon soy sauce (watch for spitting) on the pan": {
+            "objectA": "soy sauce",
+            "objectB": "pan"
+        },
+        "drizzle with the 1 tablespoons sesame oil on the pan": {
+            "objectA": "sesame oil",
+            "objectB": "pan"
+        },
+        "Return to low heat": {
+            "objectA": "pan",
+            "objectB": "heat"
+        },
+        "cook pan for 2 minutes": {
+            "objectA": "tofu",
+            "objectB": "pan"
+        },
+        "flip tofu on the pan": {
+            "objectA": "tofu",
+            "objectB": "pan"
+        },
+        "cook pan for 2 minutes until the colour is darkened": {
+            "objectA": "tofu",
+            "objectB": "pan"
+        },
+        "Transfer to a serving dish": {
+            "objectA": "tofu",
+            "objectB": "serving dish"
+        }
+    },
+    "Mug Cake": {
+        "1/4 tsp baking powder to the bowl": {
+            "objectA": "baking powder",
+            "objectB": "bowl"
+        },
+        "Place the paper cupcake liner inside the mug": {
+            "objectA": "paper cupcake liner",
+            "objectB": "mug"
+        },
+        "a pinch of salt to the mixing bowl": {
+            "objectA": "salt",
+            "objectB": "mixing bowl"
+        },
+        "1.5 tbsp sugar to the mixing bowl": {
+            "objectA": "sugar",
+            "objectB": "mixing bowl"
+        },
+        "Set aside the lined mug": {
+            "objectA": "lined mug",
+            "objectB": "table or countertop"
+        },
+        "Measure and add 2 tbsp flour to the mixing bowl": {
+            "objectA": "flour",
+            "objectB": "mixing bowl"
+        },
+        "Whisk to combine mixture of flour, sugar and baking powder in the bowl": {
+            "objectA": "mixture of flour, sugar and baking powder",
+            "objectB": "bowl"
+        },
+        "2 tbsp water to the bowl": {
+            "objectA": "water",
+            "objectB": "bowl"
+        },
+        "1/4 tsp vanilla extract to the bowl": {
+            "objectA": "vanilla extract",
+            "objectB": "bowl"
+        },
+        "Measure and add 2 tsp vegetable oil to the bowl": {
+            "objectA": "vegetable oil",
+            "objectB": "bowl"
+        },
+        "Whisk batter until no lumps remain": {
+            "objectA": "batter",
+            "objectB": "bowl"
+        },
+        "Pour batter into prepared mug": {
+            "objectA": "batter",
+            "objectB": "mug"
+        },
+        "Microwave the mug and batter on high power for 60 seconds. Check if the cake is done by inserting and toothpick into the center of the cake and then removing it. If wet batter clings to the toothpick, microwave for an additional 5 seconds. If the toothpick comes out clean, continue": {
+            "objectA": "mug and batter",
+            "objectB": "microwave"
+        },
+        "Invert the mug to release the cake onto a plate": {
+            "objectA": "mug",
+            "objectB": "plate"
+        },
+        "Allow to cool until it is no longer hot to the touch": {
+            "objectA": "mug cake",
+            "objectB": "plate"
+        },
+        "then carefully remove the paper liner": {
+            "objectA": "paper liner",
+            "objectB": "cake"
+        },
+        "While the cake is cooling, prepare to pipe the frosting. Scoop 4 spoonfuls of chocolate frosting into a zip-top bag": {
+            "objectA": "chocolate frosting",
+            "objectB": "zip-top bag"
+        },
+        "seal zip top bag, removing as much air as possible": {
+            "objectA": "zip-top bag",
+            "objectB": "air"
+        },
+        "Use scissors to cut one corner from the bag to create a small opening 1/4 inch in diameter": {
+            "objectA": "bag corner",
+            "objectB": "scissors"
+        },
+        "Squeeze the frosting through the opening to apply small dollops of frosting to the plate in a circle around the base of the cake": {
+            "objectA": "frosting",
+            "objectB": "plate"
+        }
+    },
+    "Cheese Pimiento": {
+        "Chop 1/4 red bell pepper into tiny bits": {
+            "objectA": "red bell pepper",
+            "objectB": "knife or cutting board"
+        },
+        "Place the chopped pepper in the microwave-safe bowl": {
+            "objectA": "chopped pepper",
+            "objectB": "microwave-safe bowl"
+        },
+        "Add 1/3 cup cheddar cheese to a microwave-safe cup": {
+            "objectA": "cheddar cheese",
+            "objectB": "microwave-safe cup"
+        },
+        "Add 1 tablespoons of water to the bowl": {
+            "objectA": "water",
+            "objectB": "bowl"
+        },
+        "Melt the cheese by microwaving cup for 30 sec. (Check after 30 seconds and microwave for 10 seconds more if needed)": {
+            "objectA": "cheese in the cup",
+            "objectB": "microwave"
+        },
+        "Microwave the bowl, covered, for 2 minutes": {
+            "objectA": "bowl",
+            "objectB": "microwave"
+        },
+        "Mix the cheese and red bell pepper in the bowl": {
+            "objectA": "cheese and red bell pepper",
+            "objectB": "bowl"
+        },
+        "Add 1/4 teaspoon salt to the bowl": {
+            "objectA": "salt",
+            "objectB": "bowl"
+        },
+        "Add 1/4 teaspoon pepper to the bowl": {
+            "objectA": "pepper",
+            "objectB": "bowl"
+        },
+        "add 1/2 tbsp softened butter to the bowl": {
+            "objectA": "softened butter",
+            "objectB": "bowl"
+        },
+        "Mix all the ingredients of the bowl well": {
+            "objectA": "ingredients",
+            "objectB": "bowl"
+        }
+    },
+    "Spicy Tuna Avocado Wraps": {
+        "Take 1 ripe avocado": {
+            "objectA": "ripe avocado",
+            "objectB": "cutting board"
+        },
+        "Open a can of tuna": {
+            "objectA": "can of tuna",
+            "objectB": "can opener"
+        },
+        "drain excess water from can": {
+            "objectA": "can of tuna",
+            "objectB": "sink"
+        },
+        "Lay out 2 large lettuce leaves": {
+            "objectA": "lettuce leaves",
+            "objectB": "cutting board"
+        },
+        "cut avocado into thin slices": {
+            "objectA": "avocado",
+            "objectB": "knife"
+        },
+        "1/4 cup mayonnaise to the bowl": {
+            "objectA": "mayonnaise",
+            "objectB": "bowl"
+        },
+        "Chop 1 scallion": {
+            "objectA": "scallion",
+            "objectB": "knife"
+        },
+        "place avocado slices on each leaf": {
+            "objectA": "avocado slices",
+            "objectB": "lettuce leaves"
+        },
+        "1 tsp Sriracha sauce to the bowl": {
+            "objectA": "Sriracha sauce",
+            "objectB": "bowl"
+        },
+        "add chopped scallion to the bowl": {
+            "objectA": "chopped scallion",
+            "objectB": "bowl"
+        },
+        "Add 1 can drained tuna to the bowl": {
+            "objectA": "drained tuna",
+            "objectB": "bowl"
+        },
+        "Mix the contents of the bowl": {
+            "objectA": "contents of the bowl",
+            "objectB": "bowl"
+        },
+        "Season bowl with 1/4 tsp salt": {
+            "objectA": "salt",
+            "objectB": "bowl"
+        },
+        "season 1/4 tsp pepper on the bowl": {
+            "objectA": "pepper",
+            "objectB": "bowl"
+        },
+        "top lettuce leaves with the tuna mixture": {
+            "objectA": "tuna mixture",
+            "objectB": "lettuce leaves"
+        },
+        "Roll up the lettuce wraps": {
+            "objectA": "lettuce wraps",
+            "objectB": "hands"
+        },
+        "secure the wrap with a toothpick": {
+            "objectA": "lettuce wrap",
+            "objectB": "toothpick"
+        }
+    },
+    "Caprese Bruschetta": {
+        "1/8 cup shredded mozzarella to a bowl": {
+            "objectA": "shredded mozzarella",
+            "objectB": "bowl"
+        },
+        "1/4 tsp salt to a bowl": {
+            "objectA": "salt",
+            "objectB": "bowl"
+        },
+        "1/4 tsp pepper to a bowl": {
+            "objectA": "pepper",
+            "objectB": "bowl"
+        },
+        "Slice two 1/2 inch thick rounds from a baguette (slice slanted)": {
+            "objectA": "baguette",
+            "objectB": "knife"
+        },
+        "Brush 2 slices of baguette with olive oil on both sides": {
+            "objectA": "baguette slices",
+            "objectB": "olive oil"
+        },
+        "Toast both sides of the slices on the pan for 2 to 3 minutes until lightly charred and crispy and transfer the slices to a plate": {
+            "objectA": "baguette slices",
+            "objectB": "pan"
+        },
+        "Cut 1/4 cup of cherry tomatoes into halves": {
+            "objectA": "cherry tomatoes",
+            "objectB": "knife or cutting board"
+        },
+        "1/16 cup basil to a bowl": {
+            "objectA": "basil",
+            "objectB": "bowl"
+        },
+        "In a bowl, add the cut cherry tomatoes": {
+            "objectA": "cherry tomatoes",
+            "objectB": "bowl"
+        },
+        "Combine the contents of the bowl": {
+            "objectA": "contents of the bowl",
+            "objectB": "bowl"
+        },
+        "Spoon the mixture from the bowl onto the bread": {
+            "objectA": "mixture",
+            "objectB": "bread"
+        }
+    }
+}

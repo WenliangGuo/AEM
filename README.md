@@ -68,12 +68,13 @@ Step 2: Video features. Two options:
 
 Step 3 (optional, training only): Effect frames. Skip this step for evaluation. Otherwise, download the effect frames (~4GB) from our [Google Drive](https://drive.google.com/file/d/1d3GkObtZ-DLNsXjw4i5Lm0mfBlmatmK0/view?usp=sharing) and extract them into the `data/egoper/effect_frames/` folder.
 
-All EgoPER data lives under `data/egoper/`. Videos can be saved anywhere, as they are only used for feature extraction and visualization. The `detection/`, `scene_graph_npy/` and `scene_graph_json/` folders are already provided in this repo; `annotation.json`, `active_object.json`, the per-task feature folders, and `effect_frames/` come from the downloads above. Organize the folder as follows:
+All EgoPER data lives under `data/egoper/`. Videos can be saved anywhere, as they are only used for feature extraction and visualization. The `detection/`, `scene_graph_npy/` and `scene_graph_json/` folders and `gpt4o_action_objects.json` are already provided in this repo; `annotation.json`, `active_object.json`, the per-task feature folders, and `effect_frames/` come from the downloads above. Organize the folder as follows:
 
 ```
 AEM/data/egoper/
 ├── annotation.json                      # segment-level action / error annotations (all tasks)
 ├── active_object.json                   # active-object boxes (used by the GCN backbone)
+├── gpt4o_action_objects.json            # per-action {objectA, objectB} focus pair (data-prep input)
 ├── coffee/                              # one folder per task: coffee, oatmeal, pinwheels, quesadilla, tea
 │   ├── training.txt / validation.txt / test.txt
 │   └── features_10fps/                  # I3D features, e.g. coffee_u1_a1_error_001.npy
@@ -97,7 +98,7 @@ Step 2: Video features. Two options:
 
 Step 3 (optional, training only): Effect frames. Skip this step for evaluation. Otherwise, download the effect frames (~175MB) from our [Google Drive](https://drive.google.com/file/d/1Eg2EIsjnshJnMQ41DnTavyjBWfv6WbK7/view?usp=drive_link) and extract them into the `data/captaincook4d/effect_frames/` folder.
 
-All CaptainCook4D data lives under `data/captaincook4d/`. The `detection/`, `scene_graph_npy/` and `scene_graph_json/` folders and the annotation / step-mapping `*.json` files are already provided in this repo; the I3D features and effect frames come from the downloads above. Organize the folder as follows:
+All CaptainCook4D data lives under `data/captaincook4d/`. The `detection/`, `scene_graph_npy/` and `scene_graph_json/` folders and the annotation / step-mapping `*.json` files (including `gpt4o_action_objects.json`) are already provided in this repo; the I3D features and effect frames come from the downloads above. Organize the folder as follows:
 
 ```
 AEM/data/captaincook4d/
@@ -106,6 +107,7 @@ AEM/data/captaincook4d/
 ├── activity_step_collection.json        # recipe -> step-id -> step text
 ├── step_id_mapping.json                 # per-recipe step-id remapping (labels use the mapped ids)
 ├── id_activity_mapping.json             # recipe id -> recipe name
+├── gpt4o_action_objects.json            # per-action {objectA, objectB} focus pair (data-prep input)
 ├── I3D_features_10fps/                   # I3D features, e.g. 1_10_360p.npy
 ├── detection/openset_detection_ccp4d.json   # VLM object detections   (effect model, training only)
 ├── scene_graph_npy/scene_graph.npy      # symbolic scene graphs        (effect model, training only)

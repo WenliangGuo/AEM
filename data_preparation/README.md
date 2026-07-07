@@ -28,11 +28,11 @@ Every script is run from the `AEM/` directory and takes `--data_root`
 
 Dependencies by step (imported lazily, so a step only needs its own deps):
 
-| Step | Needs |
-|------|-------|
-| effect descriptions, object descriptions, scene graphs | `openai` |
-| effect-frame selection / encoding, feature extraction   | `torch`, `open_clip` (EVA02-L-14-336), `opencv-python`, `Pillow`, GPU |
-| object detection                                          | [GroundingDINO](https://github.com/IDEA-Research/GroundingDINO) on the `PYTHONPATH` + SwinB weights, GPU |
+| Step                                                   | Needs                                                                                                     |
+| ------------------------------------------------------ | --------------------------------------------------------------------------------------------------------- |
+| effect descriptions, object descriptions, scene graphs | `openai`                                                                                                |
+| effect-frame selection / encoding, feature extraction  | `torch`, `open_clip` (EVA02-L-14-336), `opencv-python`, `Pillow`, GPU                             |
+| object detection                                       | [GroundingDINO](https://github.com/IDEA-Research/GroundingDINO) on the `PYTHONPATH` + SwinB weights, GPU |
 
 `common.py` holds the shared helpers (OpenAI client, EVA-CLIP loader,
 effect-frame scoring, GroundingDINO wrapper, scene-graph → feature packing).
@@ -123,5 +123,3 @@ python data_preparation/captaincook4d/extract_graph_features.py --data_root data
   (`<task>/<vid>/<seg>/<frame>.jpg`); CaptainCook4D stores it relative to
   `data_root` (`effect_frames/<vid>/<seg>/<frame>.jpg`). Both match what the
   dataset loaders expect.
-- **`gpt4o_action_objects.json`** (the per-action `{objectA, objectB}` focus
-  pair) is a provided input, not generated here.

@@ -1,0 +1,240 @@
+{
+    "coffee": {
+        "Measure 12 ounces of cold water": {
+            "objectA": "water",
+            "objectB": "measuring cup"
+        },
+        "Transfer water to kettle": {
+            "objectA": "water",
+            "objectB": "kettle"
+        },
+        "Discard paper filter and coffee grounds": {
+            "objectA": "paper filter",
+            "objectB": "trash can"
+        },
+        "Hold cup of coffee in front of you": {
+            "objectA": "coffee",
+            "objectB": "cup"
+        },
+        "Put dripper on mug": {
+            "objectA": "dripper",
+            "objectB": "mug"
+        },
+        "Fold paper filter in half to create semi-circle": {
+            "objectA": "paper filter",
+            "objectB": "hands"
+        },
+        "Fold it in half again to create quarter-circle": {
+            "objectA": "paper",
+            "objectB": "hands"
+        },
+        "Place paper filter in dripper and spread it into cone": {
+            "objectA": "paper filter",
+            "objectB": "dripper"
+        },
+        "Weigh 25 grams of coffee beans": {
+            "objectA": "coffee beans",
+            "objectB": "scale"
+        },
+        "Put coffee beans in coffee grinder": {
+            "objectA": "coffee beans",
+            "objectB": "coffee grinder"
+        },
+        "Grind coffee for 20 seconds": {
+            "objectA": "coffee beans",
+            "objectB": "grinder"
+        },
+        "Transfer grounds to filter cone": {
+            "objectA": "coffee grounds",
+            "objectB": "filter cone"
+        },
+        "Check water temperature": {
+            "objectA": "water",
+            "objectB": "thermometer"
+        },
+        "Pour a small amount of water on grounds": {
+            "objectA": "water",
+            "objectB": "coffee grounds"
+        },
+        "Slowly pour the rest of water in circular motion": {
+            "objectA": "coffee liquid",
+            "objectB": "filter cone"
+        }
+    },
+    "pinwheels": {
+        "Place tortilla on cutting board": {
+            "objectA": "tortilla",
+            "objectB": "cutting board"
+        },
+        "Use knife to scoop nut butter": {
+            "objectA": "knife",
+            "objectB": "nut butter"
+        },
+        "Spread butter onto tortilla": {
+            "objectA": "butter",
+            "objectB": "tortilla"
+        },
+        "Clean knife": {
+            "objectA": "knife",
+            "objectB": "paper towel"
+        },
+        "Use knife to scoop jelly": {
+            "objectA": "jelly",
+            "objectB": "knife"
+        },
+        "Spread jelly on nut butter": {
+            "objectA": "jelly",
+            "objectB": "nut butter"
+        },
+        "Roll tortilla": {
+            "objectA": "tortilla",
+            "objectB": "hands"
+        },
+        "Insert toothpick": {
+            "objectA": "toothpick",
+            "objectB": "tortilla roll"
+        },
+        "Trim end": {
+            "objectA": "knife",
+            "objectB": "tortilla roll"
+        },
+        "Discard two ends": {
+            "objectA": "tortilla roll",
+            "objectB": "trash can"
+        },
+        "Put floss under tortilla": {
+            "objectA": "floss",
+            "objectB": "tortilla roll"
+        },
+        "Slice using floss": {
+            "objectA": "floss",
+            "objectB": "hands"
+        },
+        "Place pinwheels on plate": {
+            "objectA": "pinwheels",
+            "objectB": "plate"
+        }
+    },
+    "tea": {
+        "Measure 12 ounces of cold water": {
+            "objectA": "water",
+            "objectB": "measuring cup"
+        },
+        "Transfer water to kettle": {
+            "objectA": "water",
+            "objectB": "kettle"
+        },
+        "Place tea bag in mug": {
+            "objectA": "tea bag",
+            "objectB": "mug"
+        },
+        "Check water temperature": {
+            "objectA": "kettle",
+            "objectB": "thermometer"
+        },
+        "Pour water from kettle into mug": {
+            "objectA": "water",
+            "objectB": "kettle"
+        },
+        "Steep tea bag in mug for a few seconds": {
+            "objectA": "tea bag",
+            "objectB": "mug"
+        },
+        "Put tea bag into trash can": {
+            "objectA": "tea bag",
+            "objectB": "trash can"
+        },
+        "Add honey to mug": {
+            "objectA": "honey",
+            "objectB": "mug"
+        },
+        "Stir using spoon": {
+            "objectA": "mug",
+            "objectB": "spoon"
+        },
+        "Hold cup in front of you": {
+            "objectA": "cup",
+            "objectB": "hand"
+        }
+    },
+    "quesadilla": {
+        "Place tortilla on cutting board": {
+            "objectA": "tortilla",
+            "objectB": "cutting board"
+        },
+        "Use knife to scoop Nutella": {
+            "objectA": "knife",
+            "objectB": "nutella jar"
+        },
+        "Spread Nutella onto tortilla": {
+            "objectA": "nutella",
+            "objectB": "tortilla"
+        },
+        "Put banana slices on tortilla": {
+            "objectA": "banana slices",
+            "objectB": "tortilla"
+        },
+        "Sprinkle cinnamon onto tortilla": {
+            "objectA": "cinnamon",
+            "objectB": "tortilla"
+        },
+        "Fold tortilla": {
+            "objectA": "tortilla",
+            "objectB": "hands"
+        },
+        "Slice using knife": {
+            "objectA": "tortilla",
+            "objectB": "knife"
+        },
+        "Place tortilla wedges on plate": {
+            "objectA": "tortilla wedges",
+            "objectB": "plate"
+        }
+    },
+    "oatmeal": {
+        "Measure 4 Tablespoons of quick-cook oats": {
+            "objectA": "oats",
+            "objectB": "bowl"
+        },
+        "Measure 1/2 cup water": {
+            "objectA": "water",
+            "objectB": "measuring cup"
+        },
+        "Pour water to bowl": {
+            "objectA": "water",
+            "objectB": "bowl"
+        },
+        "Put bowl in microwave": {
+            "objectA": "bowl",
+            "objectB": "microwave"
+        },
+        "Microwave for X seconds": {
+            "objectA": "countdown number on microwave",
+            "objectB": "microwave"
+        }, 
+        "Remove bowl from microwave": {
+            "objectA": "bowl",
+            "objectB": "microwave"
+        },
+        "Add handful of raisins": {
+            "objectA": "raisins",
+            "objectB": "bowl with oatmeal"
+        },
+        "Stir using spoon": {
+            "objectA": "spoon",
+            "objectB": "bowl with oatmeal"
+        },
+        "Put bananas": {
+            "objectA": "bananas",
+            "objectB": "bowl with oatmeal"
+        },
+        "Sprinkle cinnamon on bowl": {
+            "objectA": "cinnamon",
+            "objectB": "bowl with oatmeal"
+        },
+        "Drizzle honey in bowl": {
+            "objectA": "honey",
+            "objectB": "bowl with oatmeal"
+        }
+    }
+}
